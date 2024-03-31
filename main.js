@@ -1,4 +1,9 @@
-//  Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric,
-// would you like to learn some Python today?”
-var variable = ("isha");
-console.log("hello" + variable + ",would you like to learn phython today");
+//lower case
+var personName1 = "isha";
+console.log("lowercase", personName1.toLowerCase());
+//upper case
+var personName2 = "isha";
+console.log("uppercase", personName2.toLocaleUpperCase());
+//title case
+var personName3 = "isha";
+console.log("titlecase", personName3.replace(/\b\w/g, function (c) { return c.toUpperCase(); }));
