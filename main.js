@@ -1,1 +1,3 @@
-console.log("william shakespear said, all that glitters are not gold");
+var famousperson = ("william shakespear");
+var message = "once said ,all glitters are not gold ";
+console.log(famousperson, message);
