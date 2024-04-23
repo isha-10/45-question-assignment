@@ -1,8 +1,5 @@
-//addition
-console.log(4+4);
-//substraction
-console.log(10-2);
-//multplication
-console.log(4*2);
-//division
-console.log(16/)
+let names : string [] = ["shafay,shaheer,haniya,hashir"];
+console.log(names [0]);
+console.log (names [1]);
+console.log(names [2]);
+console.log(names [3])
