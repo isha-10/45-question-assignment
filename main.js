@@ -1,3 +1,4 @@
-var famousperson = ("william shakespear");
-var message = "once said ,all glitters are not gold ";
-console.log(famousperson, message);
+var whitespaces = "/t/n isha khan /t/n";
+console.log(whitespaces);
+var withoutwhitespace = whitespaces.trim();
+console.log(withoutwhitespace);
